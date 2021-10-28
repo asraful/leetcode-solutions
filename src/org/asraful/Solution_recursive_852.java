@@ -44,7 +44,7 @@
         arr is guaranteed to be a mountain array.
  */
 
-class Solution_852 {
+class Solution_recursive_852 {
     public int  main(int[] arr) {
         return peakIndexInMountainArray(arr, 0, arr.length - 1);
     }
