@@ -7,9 +7,6 @@ package leetcode;
 import java.util.Stack;
 
 public class Solution_682 {
-    public int main(String[] arr) {
-        return calPoints(arr);
-    }
 
     public static int calPoints(String[] ops) {
 

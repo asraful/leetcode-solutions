@@ -6,9 +6,6 @@ package leetcode;
  */
 
 class Solution_recursive_852 {
-    public int main(int[] arr) {
-        return peakIndexInMountainArray(arr, 0, arr.length - 1);
-    }
 
     static int peakIndexInMountainArray(int arr[], int left, int right) {
 
