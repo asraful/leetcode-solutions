@@ -1,7 +1,7 @@
+package leetcode;
 /*
     https://github.com/asraful
-
-    852. Peak Index in a Mountain Array
+    LeetCode problem title : 852. Peak Index in a Mountain Array
     Iterative / Binary Search
  */
 
