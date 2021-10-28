@@ -41,7 +41,7 @@
  */
 
 class Solution_852 {
-    public int peakIndexInMountainArray(int[] arr) {
+    public int  main(int[] arr) {
         return peakIndexInMountainArray(arr, 0, arr.length - 1);
     }
 
