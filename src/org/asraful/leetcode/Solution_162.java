@@ -2,13 +2,14 @@ package leetcode;
 
 /*
     https://github.com/asraful
-    LeetCode problem title : 162. Find Peak Element
+    LeetCode problem title : 162
  */
 
-public class Solution_162 {
+class Solution_162 {
     public int findPeakElement(int[] arr) {
         return peakIndexInMountainArray(arr, 0, arr.length - 1);
     }
+
 
     static int peakIndexInMountainArray(int arr[], int l, int r) {
         while (l < r) {
