@@ -1,6 +1,6 @@
-package leetcode;
+package array;
 
-public class SolutionEvenNumberofDigits {
+public class EvenNumberofDigits {
 
     public int findNumbers(int[] nums) {
         int count = 0;
@@ -20,4 +20,6 @@ public class SolutionEvenNumberofDigits {
         }
         return evenCount;
     }
+
+
 }
