@@ -1,14 +1,17 @@
 package leetcode;
 
 import array.MergeSortedArray;
+import array.RemoveDuplicatesfromSortedArray;
+import array.RemoveElement;
 
 public class SolutionTest {
     public static void main(String args[]) {
-        int nums1[] = {2,0};
-        int m = 1;
-        int nums2[] = {1};
-        int n = 1;
-        new MergeSortedArray().merge(nums1, m, nums2, n);
+        int nums1[] = {1,1,2,2};
+
+
+
+        int k = new RemoveDuplicatesfromSortedArray().removeDuplicates(nums1);
+        System.out.println(k);
 
 
     }
