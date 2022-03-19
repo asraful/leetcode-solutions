@@ -7,10 +7,10 @@ import array.RemoveElement;
 
 public class SolutionTest {
     public static void main(String args[]) {
-        int nums1[] = {-20, 8, -6, -14, 0, -19, 14, 4};
+        int aa[] = {0, 1, 2, 1, 2};
 
 
-        boolean k = new DoubleExist().checkIfExist(nums1);
+        boolean k = new Solution941().validMountainArray(aa);
         System.out.println(k);
 
 
