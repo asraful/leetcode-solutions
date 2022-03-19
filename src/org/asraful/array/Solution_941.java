@@ -1,6 +1,6 @@
-package leetcode;
+package array;
 
-public class Solution941 {
+public class Solution_941 {
     public boolean validMountainArray(int[] arr) {
 
         int i = 0;
