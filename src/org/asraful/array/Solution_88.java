@@ -1,4 +1,4 @@
-package twopointers;
+package array;
 
 // 88. Merge Sorted Array
 public class Solution_88 {

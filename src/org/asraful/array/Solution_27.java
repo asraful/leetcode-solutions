@@ -1,8 +1,6 @@
 package array;
 
-import java.util.Arrays;
-
-public class RemoveElement {
+public class Solution_27 {
 
     // hint : don't look for match, look for not matched value and add in the array
     public int removeElement(int[] nums, int val) {
