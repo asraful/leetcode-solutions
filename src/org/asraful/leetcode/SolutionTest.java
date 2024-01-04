@@ -4,7 +4,7 @@ import array.Solution_1299;
 
 public class SolutionTest {
     public static void main(String args[]) {
-        int aa[] = {1,2,3,4};
+        int aa[] = {100,4,200,1,3,2};
 
 
         //new Solution_1299().replaceElements(aa);
@@ -12,7 +12,7 @@ public class SolutionTest {
         String s = "anagram";
         String t = "anganam";
 
-        new Solution_238().productExceptSelf(aa);
+        new Solution_128().longestConsecutive(aa);
 
 
     }
