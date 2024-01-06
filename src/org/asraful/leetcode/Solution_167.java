@@ -15,6 +15,8 @@ public class Solution_167 {
                 right--;
             }
         }
+        //Given a 1-indexed array of integers numbers  , so // +1
+        // constant extra space
         return new int[] {left + 1, right + 1};
     }
 }
